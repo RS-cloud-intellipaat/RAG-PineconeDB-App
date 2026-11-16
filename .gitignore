@@ -1,0 +1,21 @@
+.env
+.venv/
+__pycache__/
+
+# Python virtual environment
+.venv/
+venv/
+
+# Secret API keys
+.env
+.env.*
+
+# Python cache
+__pycache__/
+*.pyc
+
+# IDE settings
+.idea/
+
+# Local database
+chroma_db/
