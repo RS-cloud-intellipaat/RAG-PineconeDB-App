@@ -52,7 +52,7 @@ for pdf in Path("documents").glob("*.pdf"):
             })
 
 for chunk in chunks:
-    print(chunks)
+    print(chunk)
     print("*"*50)
 
 #Generated embedding and upload to Pinecone
